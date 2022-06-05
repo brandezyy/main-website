@@ -692,6 +692,8 @@ section {
 }
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  max-height: 20rem;
+  width: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
@@ -880,8 +882,8 @@ section {
 }
 .team .member .pic {
   overflow: hidden;
-  width: 150px;
-  border-radius: 50%;
+  width: 50%;
+  border-radius: 25px;
   margin: 0 auto 20px auto;
 }
 .team .member .pic img {
