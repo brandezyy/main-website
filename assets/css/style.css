@@ -675,10 +675,13 @@ section {
   border: 0;
 }
 
+/*  */
+/* Features */
+/*  */
 .features .nav-link {
   padding: 15px 0;
   transition: 0.3s;
-  color: var(--color-secondary);
+  color: #402663;
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -707,13 +710,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: var(--color-primary);
+  color: #27212f;
 }
 
 .features .nav-link.active {
-  color: var(--color-primary);
+  color: #402663;
   background-color: transparent;
-  border-color: var(--color-primary);
+  border-color: #402663
 }
 
 .features .tab-content {
@@ -734,7 +737,7 @@ section {
   display: block;
   width: 60px;
   height: 3px;
-  background: var(--color-primary);
+  background: #402663;
   left: 0;
   bottom: 0;
 }
@@ -751,7 +754,7 @@ section {
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: #402663;
 }
 
 .features .tab-pane p:last-child {
